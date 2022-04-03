@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Playfair+Display:wght@600&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background: rgb(236, 226, 228);
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: #A68DAD;
+    margin: 20px;
+}
+.table1{
+    border: 1px solid rgb(255,225,50);
+    border-collapse: collapse;
+   font-family: bold 'roboto';
+   font-weight: 300;
+   margin: 20px auto;
+   
+}
+
+.table1 th,td{
+padding: 15px;
+text-align: center,left;
+font-size: 1.2rem;
+}
+.table1 th{
+    background: rgb(255, 225, 50);
+   width: 200px;
+    
+}
+.table1 td{
+    background:rgb(108, 75, 190);
+    color:white;
+    width: 200px;
+}    
+th.a{
+    background: rgb(217, 192, 50);
+
+}
+table:nth-of-type(2) {
+    border: 3px solid rgb(255, 255, 255);
+    font-family: 'IBM Plex Mono';
+    margin: 150px auto;
+    font-weight: 300;
+
+}
+
+table:nth-of-type(2) th{
+    padding: 15px;
+    text-align:left;
+    font-size: 1.2em;
+    background: purple;
+    color: white;
+    width: 300px;
+    }
+table:nth-of-type(2) td{
+    padding: 15px;
+    text-align:left;
+    font-size: 1.2em;
+    background: rgb(243, 160, 243);
+    color: white;
+    width: 300px;
+}
+
+
+table:nth-of-type(2) .darker {
+    background: rgb(146, 79, 188);}
+  
+table:nth-of-type(3) {
+    background: white;
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-family: bold 'Playfair Display';
+    margin: 100px auto;
+    font-weight: 600px;
+ 
+}
+table:nth-of-type(3) th {
+    border: 3px solid black;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.2em;
+    color: black;
+    width: 200px;
+}
+table:nth-of-type(3) td {
+    border: 3px solid black;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.2em;
+    color: black;
+    width: 300px;
+}
+
+table:nth-of-type(3) .or {
+    background-color: rgb(242, 193, 101);
+    color: white;
+}
+table:nth-of-type(3) .bl{
+    background-color: blue;
+    color: white;
+}
+table:nth-of-type(3) .gr {
+    background-color: rgb(83, 214, 83);
+    color: white;
+}
